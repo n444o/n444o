@@ -2,3 +2,6 @@
 .vscode/
 packages/
 .DS_Store
+tmp/
+Resources/
+*.ipa
