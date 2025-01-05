@@ -54,8 +54,8 @@ jobs:
         permissions:
             contents: write
 
-        　　　steps:
-            - name: Checkout Main
+            steps:
+                - name: Checkout Main
             uses: actions/checkout@v4.2.2
             with:
                 path: main
