@@ -30,3 +30,6 @@ include $(THEOS_MAKE_PATH)/tweak.mk
 
 REMOVE_EXTENSIONS = 1
 CODESIGN_IPA = 0
+
+before-package::
+	@mkdir -p $(THEOS_STAGING_DIR)/Library/Application\ Support; cp -r Localizations/uYouPlus.bundle $(THEOS_STAGING_DIR)/Library/Application\ Support/
